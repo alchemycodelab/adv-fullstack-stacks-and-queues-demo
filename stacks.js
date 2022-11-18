@@ -10,6 +10,7 @@
 
 const input = '{ foo: "bar", baz: [1, 2, 3] }'
 
+// Implementation not complete here.
 const parse = (string, tokenStack) => {
   for(let i = 0; i < string.length, ++i) {
     if(string[i] == '{') {
